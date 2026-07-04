@@ -45,7 +45,7 @@ def create_project() -> None:
         "repository": remote,
     }
     cookiecutter(
-        template="C:/Users/orbit_txvu/PycharmProjects/Template",
+        template="https://github.com/YuliaOrl/template-project",
         no_input=True,
         overwrite_if_exists=True,
         output_dir=parent_dir,
