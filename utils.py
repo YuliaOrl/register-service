@@ -54,6 +54,3 @@ def create_project() -> None:
     print("Project created")
 
 
-create_project()
-
-
